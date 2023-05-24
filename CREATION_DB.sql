@@ -28,11 +28,11 @@ CREATE TABLE IF NOT EXISTS anteproyecto (
 
 CREATE TABLE IF NOT EXISTS usuario (
   idusuario INT NOT NULL AUTO_INCREMENT,
-  matricula INT UNIQUE  not NULL,
+  matricula INT UNIQUE NOT NULL,
   nombre NVARCHAR(45) NOT NULL,
   apellidoPaterno NVARCHAR(45) NOT NULL,
   apellidoMaterno NVARCHAR(45) NOT NULL,
-  correoElectronico NVARCHAR(50) NOT NULL,
+  correoElectronico NVARCHAR(50) UNIQUE NOT NULL,
   username NVARCHAR(45) UNIQUE NOT NULL,
   password  NVARCHAR(45) NOT NULL,
   rolSistema INT NOT NULL,
