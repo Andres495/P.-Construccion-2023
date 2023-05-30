@@ -1,0 +1,49 @@
+Falla la conexión con la base de datos
+
+Falla la consulta en la base de datos
+La consulta SQL es inválida, no retorna valor.
+
+Autenticación fallida
+Si un usuario intenta iniciar sesión con credenciales incorrectas,
+se debe mostrar un mensaje de error indicando que la autenticación 
+ha fallado.
+
+Datos faltantes o incorrectos
+Si el usuario intenta enviar un formulario con campos obligatorios
+vacíos o con datos incorrectos,se debe mostrar un mensaje de error 
+indicando que se deben completar correctamente todos los campos 
+obligatorios.
+
+Límite de acceso alcanzado
+Si un usuario intenta realizar una acción que supera su límite de 
+acceso, se debe mostrar un mensaje de error indicando que no 
+tiene permisos para realizar esa acción.
+
+Transacción fallida
+Si un usuario intenta realizar una transacción de pago y esta falla por 
+alguna razón, se debe mostrar un mensaje de error indicando que la 
+transacción no se pudo completar y proporcionar al usuario información 
+sobre cómo solucionar el problema.
+
+Problemas de validación
+Si el sistema intenta validar un conjunto de datos y se encuentra con 
+errores de validación, se debe mostrar un mensaje de error indicando 
+cuáles son los problemas de validación y cómo se pueden corregir.
+
+Proceso interrumpido
+Si un proceso en el sistema se interrumpe por alguna razón (como un 
+fallo del sistema o una interrupción del servicio), se debe mostrar un 
+mensaje de error indicando que el proceso se ha interrumpido y proporcionar 
+información sobre cómo continuar.
+
+Conflictos de datos
+Si un usuario intenta actualizar un registro que ha sido actualizado por 
+otro usuario en el mismo momento, se debe mostrar un mensaje de error 
+indicando que ha habido un conflicto de datos y proporcionar opciones 
+para resolver el conflicto.
+
+Problemas de conectividad
+Si el sistema intenta conectarse con un servicio externo (como una API) 
+y no puede establecer una conexión, se debe mostrar un mensaje de error 
+indicando que ha habido un problema de conectividad y proporcionar 
+información sobre cómo solucionar el problema.
